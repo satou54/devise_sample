@@ -1,3 +1,4 @@
+User.create!(email: "test@example.com", password: "password", nickname: "sss")
 user = User.first
 Item.create!(name: "熱狂のWebマーケティング", price: 1500, user_id: user.id)
 Item.create!(name: "0秒シンキング", price: 1200, user_id: user.id)
